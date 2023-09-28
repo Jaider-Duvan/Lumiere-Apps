@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Fondo transparente -->
+    <item android:drawable="@android:color/transparent" />
+
+    <!-- Borde negro -->
+    <item>
+        <shape android:shape="oval">
+            <stroke android:width="2dp" android:color="#000000" /> <!-- Grosor y color del borde (negro en este caso) -->
+        </shape>
+    </item>
+</layer-list>

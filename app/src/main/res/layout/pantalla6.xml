@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/degradado1"
+    android:orientation="vertical"
+    >
+
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="120dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#2F454343"
+        android:fontFamily="@font/joti"
+        android:text="Hoy"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="400dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        style="@style/Widget.AppCompat.TextView.SpinnerItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/joti"
+        android:text="LUMIERE"
+        android:textColor="#1533A3"
+        android:textColorHighlight="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023" />
+
+
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="48dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView4"
+        app:srcCompat="@drawable/configuracion" />
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="47dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="104dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/cheque" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="47dp"
+        android:layout_height="46dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginBottom="28dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView2"
+        app:srcCompat="@drawable/calendario" /><![CDATA[
+
+    />
+
+
+
+    ]]>
+
+    <CalendarView
+        android:id="@+id/calendarView"
+        android:layout_width="292dp"
+        android:layout_height="303dp"
+        android:layout_marginTop="16dp"
+        android:background="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/check_black"
+        android:button="@null"
+        android:checked="false"
+        app:layout_constraintBottom_toBottomOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="@+id/button9"
+        tools:layout_editor_absoluteX="115dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/check_black"
+        android:button="@null"
+        android:checked="false"
+        app:layout_constraintBottom_toBottomOf="@+id/button7"
+        app:layout_constraintTop_toTopOf="@+id/button7"
+        tools:layout_editor_absoluteX="92dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:background="@drawable/check_black"
+        android:button="@null"
+        android:checked="false"
+        app:layout_constraintBottom_toBottomOf="@+id/button3"
+        app:layout_constraintTop_toTopOf="@+id/button3"
+        app:layout_constraintVertical_bias="0.538"
+        tools:layout_editor_absoluteX="107dp" />
+
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="226dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2F454343"
+        android:fontFamily="@font/joti"
+        android:text="Estudiar"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button3"
+        />
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="240dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2F454343"
+        android:fontFamily="@font/joti"
+        android:text="Arreglar habitación"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button9" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="226dp"
+        android:layout_height="42dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#2F454343"
+        android:fontFamily="@font/joti"
+        android:text="Hacer ejercicio"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="22dp"
+        android:layout_height="20dp"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        app:layout_constraintTop_toTopOf="@+id/button4"
+        app:layout_constraintVertical_bias="0.526"
+        app:srcCompat="@drawable/flecha_hacia_abajo"
+        tools:layout_editor_absoluteX="151dp" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
