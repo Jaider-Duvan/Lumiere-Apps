@@ -5,7 +5,7 @@
     android:id="@+id/LogIn"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1797F"
+    android:background="@drawable/fondo_degradado"
     tools:context=".LogIn">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -29,6 +29,8 @@
             android:layout_height="wrap_content"
             android:text="WELCOME"
             android:textSize="28sp"
+            android:backgroundTint="#FFFFFF"
+            android:textColor="#000000"
             tools:layout_editor_absoluteX="47dp"
             tools:layout_editor_absoluteY="25dp" />
 
@@ -56,6 +58,8 @@
             android:layout_height="wrap_content"
             android:text="Sing Up"
             android:textSize="20sp"
+            android:backgroundTint="#FF3232"
+            android:textColor="#000000"
             tools:layout_editor_absoluteX="104dp"
             tools:layout_editor_absoluteY="92dp" />
 
@@ -64,6 +68,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Log In"
+            android:backgroundTint="#FF8989"
+            android:textColor="#000000"
             android:textSize="20sp"
             tools:layout_editor_absoluteY="91dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
@@ -88,6 +94,8 @@
         android:layout_height="wrap_content"
         android:text="Log In"
         android:textSize="20sp"
+        android:backgroundTint="#FF8989"
+        android:textColor="#000000"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

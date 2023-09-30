@@ -5,7 +5,7 @@
     android:id="@+id/SingUp"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#F1797F"
+    android:background="@drawable/fondo_degradado"
     tools:context=".SingUp">
 
     <androidx.constraintlayout.widget.ConstraintLayout
@@ -47,6 +47,8 @@
             android:layout_height="wrap_content"
             android:text="Log In"
             android:textSize="20sp"
+            android:backgroundTint="#FF8989"
+            android:textColor="#000000"
             tools:layout_editor_absoluteX="119dp"
             tools:layout_editor_absoluteY="76dp" />
 
@@ -56,6 +58,8 @@
             android:layout_height="wrap_content"
             android:text="Sing Up"
             android:textSize="20sp"
+            android:backgroundTint="#FF3232"
+            android:textColor="#000000"
             tools:layout_editor_absoluteX="1dp"
             tools:layout_editor_absoluteY="74dp" />
 
@@ -65,6 +69,7 @@
             android:layout_height="wrap_content"
             android:text="WELCOME"
             android:textSize="28sp"
+            android:backgroundTint="#FFFFFF"
             tools:layout_editor_absoluteX="47dp"
             tools:layout_editor_absoluteY="26dp" />
 
@@ -74,6 +79,8 @@
             android:layout_height="wrap_content"
             android:text="Sing Up"
             android:textSize="20sp"
+            android:backgroundTint="#FF8989"
+            android:textColor="#000000"
             tools:layout_editor_absoluteX="55dp"
             tools:layout_editor_absoluteY="275dp" />
     </androidx.constraintlayout.widget.ConstraintLayout>
